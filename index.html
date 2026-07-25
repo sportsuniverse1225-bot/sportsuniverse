@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SportsUniverse | Sports Products Store</title>
+
+<meta name="description"
+content="SportsUniverse - Football, Cricket, Gym, Running, Volleyball and Badminton equipment.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+SportsUniverse
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#categories">Categories</a></li>
+
+<li><a href="#products">Products</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<a class="whatsapp-btn"
+href="https://wa.me/918767722069"
+target="_blank">
+
+WhatsApp
+
+</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>
+
+Everything You Need For Your Game
+
+</h1>
+
+<p>
+
+Football • Cricket • Gym • Running • Volleyball • Badminton
+
+Premium Sports Equipment At Affordable Prices.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#products" class="primary-btn">
+
+Shop Now
+
+</a>
+
+<a href="#contact" class="secondary-btn">
+
+Visit Store
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="search-section">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search products..."
+onkeyup="searchProducts()">
+
+</section>
+
+<section id="categories">
+
+<h2>
+
+Shop By Category
+
+</h2>
+
+<div class="category-container">
+
+<button class="cat-btn active"
+onclick="filterProducts('all',this)">
+
+All
+
+</button>
+
+<button class="cat-btn"
+onclick="filterProducts('football',this)">
+
+⚽ Football
+
+</button>
+
+<button class="cat-btn"
+onclick="filterProducts('cricket',this)">
+
+🏏 Cricket
+
+</button>
+
+<button class="cat-btn"
+onclick="filterProducts('gym',this)">
+
+🏋 Gym
+
+</button>
+
+<button class="cat-btn"
+onclick="filterProducts('badminton',this)">
+
+🏸 Badminton
+
+</button>
+
+<button class="cat-btn"	
+onclick="filterProducts('running',this)">
+
+🏃 Running
+
+</button>
+
+<button class="cat-btn"
+onclick="filterProducts('volleyball',this)">
+
+🏐 Volleyball
+
+</button>
+
+</div>
+
+</section>
+
+<section id="products">
+
+<h2>
+
+Featured Products
+
+</h2>
+
+<div class="product-grid">
+<!-- Football -->
+
+<div class="product football">
+
+<img src="images/jersey1.jpg" alt="Argentina Away Jersey">
+
+<h3>Argentina Away Jersey</h3>
+
+<p class="brand">Brand : Nivia</p>
+
+<p class="price">₹599</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Argentina%20Away%20Jersey"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product football">
+
+<img src="images/jersey2.jpg" alt="Spain Home Jersey">
+
+<h3>Spain Home Jersey</h3>
+
+<p class="brand">Brand : Nivia</p>
+
+<p class="price">₹599</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Spain%20Home%20Jersey"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product football">
+
+<img src="images/jersey3.jpg" alt="Spain Away Jersey">
+
+<h3>Spain Away Jersey</h3>
+
+<p class="brand">Brand : Nivia</p>
+
+<p class="price">₹499</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Spain%20Away%20Jersey"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product football">
+
+<img src="images/jersey4.jpg" alt="Italy Home Jersey">
+
+<h3>Italy Home Jersey</h3>
+
+<p class="brand">Brand : Nivia</p>
+
+<p class="price">₹599</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Italy%20Home%20Jersey"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product football">
+
+<img src="images/studs1.jpg" alt="Anza F50 Studs">
+
+<h3>Anza F50</h3>
+
+<p class="brand">Brand : Anza</p>
+
+<p class="price">₹1,299</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Anza%20F50"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product football">
+
+<img src="images/studs2.jpg" alt="Anza Precision Studs">
+
+<h3>Anza Precision</h3>
+
+<p class="brand">Brand : Anza</p>
+
+<p class="price">₹1,400</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Anza%20Precision"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product football">
+
+<img src="images/studs3.jpg" alt="Anza Piezo Studs">
+
+<h3>Anza Piezo</h3>
+
+<p class="brand">Brand : Anza</p>
+
+<p class="price">₹1,599</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Anza%20Piezo"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<!-- Cricket -->
+
+<div class="product cricket">
+
+<img src="images/bat.jpg" alt="Cricket Bat">
+
+<h3>SG Kashmir Willow Bat</h3>
+
+<p class="brand">Brand : SG</p>
+
+<p class="price">₹2,499</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20SG%20Kashmir%20Willow%20Bat"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product cricket">
+
+<img src="images/ball.jpg" alt="Cricket Ball">
+
+<h3>Leather Cricket Ball</h3>
+
+<p class="brand">Brand : SG</p>
+
+<p class="price">₹499</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Leather%20Cricket%20Ball"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product cricket">
+
+<img src="images/pads.jpg" alt="Pads">
+
+<h3>Batting Pads</h3>
+
+<p class="brand">Brand : SS</p>
+
+<p class="price">₹1,999</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Batting%20Pads"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+<!-- Gym -->
+
+<div class="product gym">
+
+<img src="images/dumbbell.jpg" alt="Dumbbells">
+
+<h3>Hex Dumbbells (5kg Pair)</h3>
+
+<p class="brand">Brand : Kobo</p>
+
+<p class="price">₹2,299</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Hex%20Dumbbells"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product gym">
+
+<img src="images/gloves.jpg" alt="Gym Gloves">
+
+<h3>Premium Gym Gloves</h3>
+
+<p class="brand">Brand : Adidas</p>
+
+<p class="price">₹799</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Gym%20Gloves"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product gym">
+
+<img src="images/band.jpg" alt="Resistance Band">
+
+<h3>Resistance Band</h3>
+
+<p class="brand">Brand : Decathlon</p>
+
+<p class="price">₹599</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Resistance%20Band"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<!-- Badminton -->
+
+<div class="product badminton">
+
+<img src="images/racket.jpg" alt="Badminton Racket">
+
+<h3>Yonex Badminton Racket</h3>
+
+<p class="brand">Brand : Yonex</p>
+
+<p class="price">₹2,999</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Yonex%20Racket"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product badminton">
+
+<img src="images/shuttle.jpg" alt="Shuttlecock">
+
+<h3>Feather Shuttlecock</h3>
+
+<p class="brand">Brand : Yonex</p>
+
+<p class="price">₹799</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Feather%20Shuttlecock"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product badminton">
+
+<img src="images/shoes.jpg" alt="Badminton Shoes">
+
+<h3>Badminton Shoes</h3>
+
+<p class="brand">Brand : Li-Ning</p>
+
+<p class="price">₹3,499</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Badminton%20Shoes"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<!-- Running -->
+
+<div class="product running">
+
+<img src="images/runningshoes.jpg" alt="Running Shoes">
+
+<h3>Running Shoes</h3>
+
+<p class="brand">Brand : Puma</p>
+
+<p class="price">₹3,999</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Running%20Shoes"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="product running">
+
+<img src="images/bottle.jpg" alt="Sports Bottle">
+
+<h3>Sports Water Bottle</h3>
+
+<p class="brand">Brand : Nivia</p>
+
+<p class="price">₹299</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Sports%20Bottle"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+
+
+<!-- Volleyball -->
+
+<div class="product volleyball">
+
+<img src="images/volleyball.jpg" alt="Volleyball">
+
+<h3>Cosco Volleyball</h3>
+
+<p class="brand">Brand : Cosco</p>
+
+<p class="price">₹999</p>
+
+<p class="stock">✅ In Stock</p>
+
+<div class="product-buttons">
+
+<a
+href="https://wa.me/918767722069?text=Hello,%20I%20want%20to%20order%20Cosco%20Volleyball"
+target="_blank"
+class="buy-btn whatsapp-btn2">
+
+💬 WhatsApp
+
+</a>
+
+<button
+type="button"
+class="buy-btn order-btn">
+
+🛒 Order Now
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="trust">
+
+<h2>Why Choose SportsUniverse?</h2>
+
+<div class="trust-grid">
+
+<div class="trust-card">
+
+<h3>✅ Original Products</h3>
+
+<p>Quality sports equipment from trusted brands.</p>
+
+</div>
+
+<div class="trust-card">
+
+<h3>🚚 Quick Response</h3>
+
+<p>Fast WhatsApp support for every enquiry.</p>
+
+</div>
+
+<div class="trust-card">
+
+<h3>🏆 Multiple Sports</h3>
+
+<p>Football, Cricket, Gym, Running and much more.</p>
+
+</div>
+
+<div class="trust-card">
+
+<h3>📍 Local Store</h3>
+
+<p>Visit us in Vasai-Virar for in-store shopping.</p>
+
+</div>
+
+</div>
+
+</section>
+<!-- Customer Reviews -->
+
+<section class="reviews">
+
+<h2>What Our Customers Say</h2>
+
+<div class="review-grid">
+
+<div class="review-card">
+
+★★★★★
+
+<p>
+
+Very good quality products and reasonable prices.
+
+</p>
+
+<h4>- Rahul P.</h4>
+
+</div>
+
+<div class="review-card">
+
+★★★★★
+
+<p>
+
+Ordered through WhatsApp and received quick response.
+
+</p>
+
+<h4>- Akash M.</h4>
+
+</div>
+
+<div class="review-card">
+
+★★★★★
+
+<p>
+
+Best sports shop in Vasai.
+
+</p>
+
+<h4>- Rohan S.</h4>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- About -->
+
+<section id="about">
+
+<div class="about-container">
+
+<div class="about-text">
+
+<h2>
+
+About SportsUniverse
+
+</h2>
+
+<p>
+
+SportsUniverse is your trusted destination for quality sports equipment.
+Whether you're a beginner, school athlete, club player or fitness enthusiast,
+we offer products across Football, Cricket, Badminton, Gym, Running,
+Volleyball and more.
+
+</p>
+
+<p>
+
+We believe every athlete deserves access to quality equipment at affordable
+prices.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Contact -->
+
+<section id="contact">
+
+<h2>
+
+Contact Us
+
+</h2>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+
+<h3>📞 Phone</h3>
+
+<p>
+
++91 87677 22069
+
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>📍 Address</h3>
+
+<p>
+
+Vasant Nagari Turf,
+
+Beside Vasant Nagari Ground,
+
+Vasai-Virar,
+
+Maharashtra 401208
+
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>📧 Email Orders</h3>
+
+<p>
+
+sportsuniverse1225@gmail.com
+
+</p>
+
+</div>
+
+</div>
+
+<br>
+
+<a
+
+class="map-btn"
+
+target="_blank"
+
+href="https://maps.google.com/?q=Vasant+Nagari+Turf+Vasai+Virar"
+
+>
+
+Open In Google Maps
+
+</a>
+
+</section>
+
+
+
+<!-- Order Form -->
+
+<section class="order-form">
+
+<h2>
+
+Place Your Order
+
+</h2>
+
+<form action="https://formspree.io/f/mlgqolya" method="POST">
+
+<input
+type="text"
+name="Customer Name"
+placeholder="Full Name"
+required>
+
+<input
+type="tel"
+name="Phone Number"
+placeholder="Phone Number"
+required>
+
+<input
+type="email"
+name="Email"
+placeholder="Email (Optional)">
+
+<input
+type="text"
+name="Product"
+placeholder="Product Name"
+required>
+
+<input
+type="number"
+name="Quantity"
+placeholder="Quantity"
+required>
+
+<input
+type="text"
+name="City"
+placeholder="City"
+required>
+
+<input
+type="text"
+name="State"
+placeholder="State"
+required>
+
+<input
+type="text"
+name="Pincode"
+placeholder="Pincode"
+required>
+
+<textarea
+name="Full Address"
+placeholder="House No., Building, Street, Landmark"
+rows="4"
+required></textarea>
+
+<select name="Payment Method" required>
+
+<option value="">Select Payment Method</option>
+
+<option>Cash on Delivery (COD)</option>
+
+<option>UPI</option>
+
+<option>Bank Transfer</option>
+
+</select>
+
+<textarea
+name="Additional Notes"
+placeholder="Any special instructions?"
+rows="4"></textarea>
+
+<button type="submit">
+
+Place Order
+
+</button>
+
+</form>
+</section>
+
+
+
+<footer>
+
+<div class="footer-content">
+
+<div>
+
+<h3>
+
+SportsUniverse
+
+</h3>
+
+<p>
+
+Quality Sports Equipment For Every Athlete.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>
+
+Quick Links
+
+</h3>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#categories">Categories</a></li>
+
+<li><a href="#products">Products</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h3>
+
+Follow Us
+
+</h3>
+
+<a
+
+href="https://wa.me/918767722069"
+
+target="_blank">
+
+WhatsApp
+
+</a>
+
+</div>
+
+</div>
+
+<p class="copyright">
+
+© 2026 SportsUniverse. All Rights Reserved.
+
+</p>
+
+</footer>
+
+
+<!-- Image Modal -->
+
+<div id="imageModal" class="image-modal">
+
+<span class="close-modal">&times;</span>
+
+<img id="modalImage">
+
+</div>
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
